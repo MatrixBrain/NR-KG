@@ -1,11 +1,8 @@
-import argparse
 import os
-import random
 import numpy as np
 import pandas as pd
 import torch
 from torch_geometric.data import Data
-import networkx as nx
 
 
 class Graph_data():
