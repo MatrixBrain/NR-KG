@@ -70,13 +70,13 @@ python main.py --root_path ./ --dataaddr ./dataset  --n_fold 6 --seed 23 --data_
 To test the NR-KG model on the HEA-HD dataset using the checkpoint, run the following command:
 
 ```commandline
-python main.py --root_path ./ --dataaddr ./dataset --net_path ./model/pre_trained/HEA-HD --n_fold 6 --seed 523 --data_seed 2021 --id 5005 --KGtype HEA-HD-KG --gpu 0 --state test
+python main.py --root_path ./ --dataaddr ./dataset --net_path ./model/pre_trained/HEA-HD --n_fold 6 --data_seed 2021 --id 5005 --KGtype HEA-HD-KG --gpu 0 --state test
 ```
 
 To test the NR-KG model on the HEA-CRD dataset using the checkpoint, run the following command:
 
 ```commandline
-python main.py --root_path ./ --dataaddr ./dataset  --net_path ./model/pre_trained/HEA-CRD --n_fold 6 --seed 99 --data_seed 2024 --id 5005 --KGtype HEA-CRD-KG --gpu 0 --state test
+python main.py --root_path ./ --dataaddr ./dataset  --net_path ./model/pre_trained/HEA-CRD --n_fold 6 --data_seed 2024 --id 5005 --KGtype HEA-CRD-KG --gpu 0 --state test
 ```
 
 The test results will be saved in the `./res` folder. The results in this paper are run on `NVIDIA RTX 1080Ti`.
