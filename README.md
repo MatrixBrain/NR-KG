@@ -85,18 +85,6 @@ The test results will be saved in the `./res` folder. The results in this paper 
 
 | Fold | MAE | RMSE | R2 |
 | --- | --- | --- | --- |
-| 0 | 2.55 | 1.16 | 0.43 |
-| 1 | 2.14 | 1.19 | 0.66 |
-| 2 | 1.73 | 0.99 | 0.58 |
-| 3 | 1.52 | 1.01 | 0.46 |
-| 4 | 1.38 | 0.98 | 0.73 |
-| 5 | 3.94 | 1.40 | 0.33 |
-| Ave. ± Std. | 2.21±0.95 | 1.12±0.16 | 0.53±0.15 |
-
-**HEA-CRD Dataset Results**: The results of 6-fold cross-validation are as follows:
-
-| Fold | MAE | RMSE | R2 |
-| --- | --- | --- | --- |
 | 0 | 2958 | 38.72 | 0.92 | 
 | 1 | 4467 | 47.27 | 0.85 | 
 | 2 | 2677 | 37.93 | 0.90 | 
@@ -104,6 +92,18 @@ The test results will be saved in the `./res` folder. The results in this paper 
 | 4 | 4793 | 48.13 | 0.84 | 
 | 5 | 2636 | 40.90 | 0.89 | 
 | Ave. ± Std. | 3520±931 | 42.96±4.39 | 0.88±0.03 | 
+
+**HEA-CRD Dataset Results**: The results of 6-fold cross-validation are as follows:
+
+| Fold | MAE | RMSE | R2 |
+| --- | --- | --- | --- |
+| 0 | 2.55 | 1.16 | 0.43 |
+| 1 | 2.14 | 1.19 | 0.66 |
+| 2 | 1.73 | 0.99 | 0.58 |
+| 3 | 1.52 | 1.01 | 0.46 |
+| 4 | 1.38 | 0.98 | 0.73 |
+| 5 | 3.94 | 1.40 | 0.33 |
+| Ave. ± Std. | 2.21±0.95 | 1.12±0.16 | 0.53±0.15 |
 
 ## Citation
 
