@@ -83,7 +83,7 @@ torch.set_default_dtype(torch.float16 if args.fp16 else torch.float32)
 
 # Prepare the data
 HEAGraph = Graph_data(KGtype=args.KGtype)
-path = r'{}\{}'.format(args.dataaddr, args.KGtype)
+path = os.path.join(args.dataaddr, args.KGtype)
 graph1 = HEAGraph.load_graph_from_neo4jcsv(path, label='HEA', node_type=0)
 HEAGraph.convert_passive_active(label='HEA', active_or_passive='passive')
 
